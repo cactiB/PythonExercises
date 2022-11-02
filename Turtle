@@ -1,15 +1,26 @@
 import turtle
 
 def triangle(edge=100):
-    turtle.forward(edge)
-    turtle.right(120)
-    turtle.forward(edge)
-    turtle.right(120)
-    turtle.forward(edge)
-    turtle.right(120)
-    turtle.forward(edge)
-    turtle.right(120)
- 
+	turtle.forward(edge)
+    	turtle.right(120)
+    	turtle.forward(edge)
+    	turtle.right(120)
+    	turtle.forward(edge)
+    	turtle.right(120)
+	turtle.forward(edge)
+	turtle.right(120)
+
+def rectangle(edge=100):
+	turtle.forward(edge)
+	turtle.right(90)
+	turtle.forward(edge)
+	turtle.right(90)
+	turtle.forward(edge)
+	turtle.right(90)
+	turtle.forward(edge)
+	turtle.right(90)
+
+
 #First Assignment 
 
 #triangle()
@@ -23,20 +34,6 @@ def triangle(edge=100):
 #triangle()
 #turtle.right(60)
 #triangle()
-
-
-
-
-def rectangle(edge=100):
-	turtle.forward(edge)
-	turtle.right(90)
-	turtle.forward(edge)
-	turtle.right(90)
-	turtle.forward(edge)
-	turtle.right(90)
-	turtle.forward(edge)
-	turtle.right(90)
-
 
 #Second Assignment
 
