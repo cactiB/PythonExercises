@@ -1,0 +1,82 @@
+import turtle
+
+def triangle(edge=100):
+    turtle.forward(edge)
+    turtle.right(120)
+    turtle.forward(edge)
+    turtle.right(120)
+    turtle.forward(edge)
+    turtle.right(120)
+    turtle.forward(edge)
+    turtle.right(120)
+    
+#triangle()
+#triangle()
+#triangle()
+#triangle()
+#triangle()
+#triangle()
+
+
+def rectangle(edge=100):
+	turtle.forward(edge)
+	turtle.right(90)
+	turtle.forward(edge)
+	turtle.right(90)
+	turtle.forward(edge)
+	turtle.right(90)
+	turtle.forward(edge)
+	turtle.right(90)
+
+#creating the rectangle 	
+rectangle()
+
+#Left circles
+turtle.circle(10)
+turtle.circle(20)
+
+#Right circles
+turtle.forward(100)	
+turtle.circle(10)
+turtle.circle(20)
+
+#Moving to draw right eye
+turtle.right(90)
+turtle.forward(15)
+turtle.right(90)
+turtle.penup()
+turtle.forward(25)
+turtle.pendown()
+
+#Right eye
+turtle.circle(10)
+
+#morving to draw left eye
+turtle.penup()
+turtle.forward(50)
+turtle.pendown()
+
+#Left eye
+turtle.circle(10)
+
+#Moving to draw nose
+turtle.left(90)
+turtle.penup()
+turtle.forward(40)
+turtle.left(90)
+turtle.forward(30)
+turtle.right(180)
+
+#Draw nose
+turtle.pendown()
+triangle(10)
+
+#Move to draw half circle
+turtle.left(140)
+turtle.penup()
+turtle.forward(20)
+turtle.left(90)
+
+#Draw half circle
+turtle.pendown()
+turtle.circle(25,160)
